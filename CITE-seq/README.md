@@ -1,3 +1,6 @@
+## CITE-seq and TCR-seq Data Analysis Pipeline
+This repository contains an end-to-end bioinformatics pipeline for processing, analyzing, and integrating single-cell **CITE-seq** (Cellular Indexing of Transcriptomes and Epitopes by Sequencing) and **TCR-seq** (T-cell Receptor sequencing) data. The workflow guides you from raw count matrices to multimodal integration, T-cell clonal tracking, and surface protein-guided transcriptomic analysis.
+
 ### Five major steps in CITE-seq analysis include:
 
 #### (1) Preprocessing & QC.
@@ -13,4 +16,6 @@
 * Parse Cell Ranger `filtered_contig_annotations.csv` files and attach clonotype definitions to the single-cell expression object.
   
 #### (5) Downstream Analysis.
-* Differential expression, clonal diversity metrics, and cluster-specific TCR expansion visualization
+* Differential expression, clonal diversity metrics, and cluster-specific TCR expansion visualization.
+
+### Resources
