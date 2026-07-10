@@ -1,3 +1,6 @@
+## scRNA-seq Data Analysis Pipeline
+This repository contains an end-to-end bioinformatics pipeline for processing, analyzing, and visualizing single-cell RNA sequencing (scRNA-seq) data. The workflow guides you from raw count matrices through quality control, normalization, batch correction/integration, clustering, and differential expression analysis to identify cell types and states.
+
 ### Four major steps in scRNA-seq analysis include:
 
 #### (1) Quality control and Preprocessing - depend on the tissue type, sample quality, and experimental design.
@@ -24,4 +27,10 @@
 * module scoring.
 * cell-cell communication analyses - **CellChat**, **CellPhoneDB**, **NicheNet**.
 * trajectory inference. 
-* integration with other modalities such as scATAC-seq, CITE-seq, or spatial transcriptomics. 
+* integration with other modalities such as scATAC-seq, CITE-seq, or spatial transcriptomics.
+
+### Resources
+
+### Publications
+1. https://www.cmghjournal.org/article/S2352-345X(25)00007-4/fulltext
+2. https://doi.org/10.1111/cea.70205
