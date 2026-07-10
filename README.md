@@ -10,7 +10,7 @@ Welcome to the central repository for processing, analyzing, and integrating sin
 * README.md        
 * scripts - TF-IDF, LSI, and peak calling scripts
 
-#### (3) CITE-seq - surface Epitope + transcriptomic + TCR integration
+#### (3) CITE-seq - surface epitope + transcriptomic + TCR integration
 * README.md        
 * scripts - WNN and clonal tracking scripts
 
