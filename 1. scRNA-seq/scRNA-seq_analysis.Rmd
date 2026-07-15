@@ -1,6 +1,6 @@
 ---
 title: "Standard pre-processing of scRNA-seq analysis"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -30,7 +30,7 @@ The raw data can be found here- https://s3-us-west-2.amazonaws.com/10x.files/sam
 
 ```{r}
 # Read the 10x Genomics matrix directory into R
-pbmc.data <- Read10X(data.dir = "./filtered_gene_bc_matrices/hg19/")
+pbmc.data <- Read10X(data.dir = "./data/filtered_gene_bc_matrices/hg19/")
 
 # Initialize the Seurat object with the raw (non-normalized data).
 pbmc <- CreateSeuratObject(counts = pbmc.data, project = "pbmc3k", min.cells = 3, min.features = 200)
