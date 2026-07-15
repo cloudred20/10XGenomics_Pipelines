@@ -1,4 +1,10 @@
-# --- Large Data Files (Never upload these) ---
+# --- R Markdown & Compiled Outputs ---
+*.Rmd
+*.html
+*_files/
+*_cache/
+
+# --- Large Genomic & Data Files ---
 *.fastq
 *.fastq.gz
 *.fq
@@ -12,8 +18,9 @@
 *.bw
 *.h5ad
 *.rds
+*.tar.gz
 
-# --- Nextflow & Pipeline Metadata ---
+# --- Nextflow & Pipeline Execution ---
 .nextflow/
 .nextflow.*
 work/
@@ -21,38 +28,19 @@ bin/nextflow
 results/
 pipeline_info/
 
-# --- Environment & Secret Management ---
+# --- Environment & Local R Session Files ---
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata/
 .env
 .venv/
 env/
 venv/
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
 .conda/
 conda_env/
 
-# --- Operating System & IDE ---
-.DS_Store
-
-# Ignore R history and user-specific files
-.Rhistory
-.RData
-.Ruserdata/
-.Rmd
-
-# Ignore compiled HTML outputs (only track your Rmd code)
-*.html
-
-# Ignore all R Markdown auto-generated figure/file folders
-*_files/
-*_cache/
-
-# Ignore compressed archives
-*.tar.gz
-
-# --- Operating System & IDE ---
+# --- Operating System & IDEs ---
 .DS_Store
 Thumbs.db
 .vscode/
