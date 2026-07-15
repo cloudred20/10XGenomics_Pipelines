@@ -24,6 +24,4 @@ Welcome to the central repository for processing, analyzing, and integrating sin
 #### (5) Xenium (In Situ Subcellular Mapping)          
 * [Coming Soon] High-resolution targeted transcripts analysis pipeline optimized for cell segmentation boundaries, subcellular molecule visualization, and spatial neighborhood indexing.
 
-### Resources
-1. Bioinformagician Youtube Channel - https://www.youtube.com/watch?v=xbX49h7BiUU&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT
 
