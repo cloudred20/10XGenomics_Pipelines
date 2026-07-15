@@ -397,27 +397,27 @@ pbmc <- RunUMAP(object = pbmc, dims = 1:10)
     ## To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
     ## This message will be shown once per session
 
-    ## 15:06:23 UMAP embedding parameters a = 0.9922 b = 1.112
+    ## 15:11:24 UMAP embedding parameters a = 0.9922 b = 1.112
 
-    ## 15:06:23 Read 2638 rows and found 10 numeric columns
+    ## 15:11:24 Read 2638 rows and found 10 numeric columns
 
-    ## 15:06:23 Using Annoy for neighbor search, n_neighbors = 30
+    ## 15:11:24 Using Annoy for neighbor search, n_neighbors = 30
 
-    ## 15:06:23 Building Annoy index with metric = cosine, n_trees = 50
+    ## 15:11:24 Building Annoy index with metric = cosine, n_trees = 50
 
     ## 0%   10   20   30   40   50   60   70   80   90   100%
 
     ## [----|----|----|----|----|----|----|----|----|----|
 
     ## **************************************************|
-    ## 15:06:23 Writing NN index file to temp file C:\Users\lalm\AppData\Local\Temp\Rtmp6nmZH0\file7ac874196898
-    ## 15:06:23 Searching Annoy index using 1 thread, search_k = 3000
-    ## 15:06:24 Annoy recall = 100%
-    ## 15:06:24 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-    ## 15:06:25 Initializing from normalized Laplacian + noise (using RSpectra)
-    ## 15:06:25 Commencing optimization for 500 epochs, with 105118 positive edges
-    ## 15:06:25 Using rng type: pcg
-    ## 15:06:31 Optimization finished
+    ## 15:11:25 Writing NN index file to temp file C:\Users\lalm\AppData\Local\Temp\Rtmp6tdLto\file7da82dbb27ab
+    ## 15:11:25 Searching Annoy index using 1 thread, search_k = 3000
+    ## 15:11:25 Annoy recall = 100%
+    ## 15:11:26 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+    ## 15:11:27 Initializing from normalized Laplacian + noise (using RSpectra)
+    ## 15:11:27 Commencing optimization for 500 epochs, with 105118 positive edges
+    ## 15:11:27 Using rng type: pcg
+    ## 15:11:34 Optimization finished
 
 ``` r
 # Plot UMAP colored by a specific clustering resolution
@@ -491,3 +491,9 @@ T-cells) to identify upregulated pathways using tools like Gene Ontology
 transitional timeline using tools like Monocle3, useful for studying
 continuous biological processes, such as stem cell differentiation or
 T-cell exhaustion
+
+**4. Cell-Cell Communication Analysis** Map ligand-receptor interactions
+to see how the annotated cell types talk to each other. Tools like
+CellChat or CellPhoneDB scan the clusters for pairs of genes known to
+encode matching ligands and receptors (e.g., a T-cell releasing a
+cytokine and a myeloid cell expressing its receptor).
