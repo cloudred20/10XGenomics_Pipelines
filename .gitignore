@@ -46,6 +46,9 @@ conda_env/
 
 # Ignore compressed archives
 *.tar.gz
+
+# --- Operating System & IDE ---
+.DS_Store
 Thumbs.db
 .vscode/
 .idea/
