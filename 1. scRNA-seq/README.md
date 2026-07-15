@@ -30,6 +30,7 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
 * integration with other modalities such as scATAC-seq, CITE-seq, or spatial transcriptomics.
 
 ### Resources
+1. https://www.youtube.com/watch?v=xbX49h7BiUU&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT
 
 ### Publications
 1. https://www.cmghjournal.org/article/S2352-345X(25)00007-4/fulltext
