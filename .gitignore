@@ -44,6 +44,10 @@ conda_env/
 # Ignore compiled HTML outputs (only track your Rmd code)
 *.html
 
+# Ignore all R Markdown auto-generated figure/file folders
+*_files/
+*_cache/
+
 # Ignore compressed archives
 *.tar.gz
 
