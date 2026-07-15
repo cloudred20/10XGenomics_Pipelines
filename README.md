@@ -5,7 +5,7 @@ Welcome to the central repository for processing, analyzing, and integrating sin
 #### (1) scRNA-seq - single-cell RNA transcriptomics pipeline
 * README.md        
 * data -
-      * filtered_gene_bc_matrices - input data for scRNA-seq_analysis.md
+  * filtered_gene_bc_matrices - input data for scRNA-seq_analysis.md
 * scripts -
   scRNA-seq_analysis.md - standard scRNA-seq worklow pipeline
 
