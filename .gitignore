@@ -1,7 +1,6 @@
 # --- R Markdown & Compiled Outputs ---
 *.Rmd
 *.html
-*_files/
 *_cache/
 
 # --- Large Genomic & Data Files ---
