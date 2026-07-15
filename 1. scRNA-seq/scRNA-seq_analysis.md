@@ -397,27 +397,27 @@ pbmc <- RunUMAP(object = pbmc, dims = 1:10)
     ## To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to 'correlation'
     ## This message will be shown once per session
 
-    ## 15:11:24 UMAP embedding parameters a = 0.9922 b = 1.112
+    ## 15:36:21 UMAP embedding parameters a = 0.9922 b = 1.112
 
-    ## 15:11:24 Read 2638 rows and found 10 numeric columns
+    ## 15:36:21 Read 2638 rows and found 10 numeric columns
 
-    ## 15:11:24 Using Annoy for neighbor search, n_neighbors = 30
+    ## 15:36:21 Using Annoy for neighbor search, n_neighbors = 30
 
-    ## 15:11:24 Building Annoy index with metric = cosine, n_trees = 50
+    ## 15:36:21 Building Annoy index with metric = cosine, n_trees = 50
 
     ## 0%   10   20   30   40   50   60   70   80   90   100%
 
     ## [----|----|----|----|----|----|----|----|----|----|
 
     ## **************************************************|
-    ## 15:11:25 Writing NN index file to temp file C:\Users\lalm\AppData\Local\Temp\Rtmp6tdLto\file7da82dbb27ab
-    ## 15:11:25 Searching Annoy index using 1 thread, search_k = 3000
-    ## 15:11:25 Annoy recall = 100%
-    ## 15:11:26 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-    ## 15:11:27 Initializing from normalized Laplacian + noise (using RSpectra)
-    ## 15:11:27 Commencing optimization for 500 epochs, with 105118 positive edges
-    ## 15:11:27 Using rng type: pcg
-    ## 15:11:34 Optimization finished
+    ## 15:36:22 Writing NN index file to temp file C:\Users\lalm\AppData\Local\Temp\RtmpA9WC4j\file922062e54473
+    ## 15:36:22 Searching Annoy index using 1 thread, search_k = 3000
+    ## 15:36:22 Annoy recall = 100%
+    ## 15:36:23 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+    ## 15:36:24 Initializing from normalized Laplacian + noise (using RSpectra)
+    ## 15:36:24 Commencing optimization for 500 epochs, with 105118 positive edges
+    ## 15:36:24 Using rng type: pcg
+    ## 15:36:30 Optimization finished
 
 ``` r
 # Plot UMAP colored by a specific clustering resolution
