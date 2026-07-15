@@ -1,0 +1,51 @@
+# --- Large Data Files (Never upload these) ---
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.bai
+*.bed
+*.vcf
+*.bigWig
+*.bw
+*.h5ad
+*.rds
+
+# --- Nextflow & Pipeline Metadata ---
+.nextflow/
+.nextflow.*
+work/
+bin/nextflow
+results/
+pipeline_info/
+
+# --- Environment & Secret Management ---
+.env
+.venv/
+env/
+venv/
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.conda/
+conda_env/
+
+# --- Operating System & IDE ---
+.DS_Store
+
+# Ignore R history and user-specific files
+.Rhistory
+.RData
+.Ruserdata/
+
+# Ignore compiled HTML outputs (only track your Rmd code)
+*.html
+
+# Ignore compressed archives
+*.tar.gz
+Thumbs.db
+.vscode/
+.idea/
