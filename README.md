@@ -4,7 +4,8 @@ Welcome to the central repository for processing, analyzing, and integrating sin
 ### Repository Architecture
 #### (1) scRNA-seq - single-cell RNA transcriptomics pipeline
 * README.md        
-* **standard_scRNAseq_analysis**: This pipeline takes noisy, high-dimensional raw sequencing counts and processes them into biologically interpretable clusters: Quality Control Filtering, Normalization & Scaling, Linear Dimensionality Reduction, Graph Construction and Clustering.
+* **standard_scRNAseq_analysis**: This pipeline takes noisy, high-dimensional raw sequencing counts and processes them into biologically interpretable clusters:
+   * Workflow: Quality Control Filtering, Normalization & Scaling, Linear Dimensionality Reduction, Graph Construction and Clustering.
    * filtered_gene_bc_matrices - input data
    * scRNA-seq_analysis.md - analysis pipeline
    * scRNA-seq_analysis_files - figures  
