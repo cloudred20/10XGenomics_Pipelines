@@ -8,7 +8,7 @@ Welcome to the central repository for processing, analyzing, and integrating sin
    * **Workflow**: quality control filtering, normalization & scaling, linear dimensionality reduction, graph construction and clustering.
    * **Input data**: filtered_gene_bc_matrices 
    * **Analysis pipeline**: scRNA-seq_analysis.md 
-   * **Figures** - scRNA-seq_analysis_files -  
+   * **Figures** - scRNA-seq_analysis_files
 
 #### (2) scATAC-seq - single-cell chromatin accessibility pipeline
 * README.md        
