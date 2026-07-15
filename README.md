@@ -5,9 +5,9 @@ Welcome to the central repository for processing, analyzing, and integrating sin
 #### (1) scRNA-seq - single-cell RNA transcriptomics pipeline
 * README.md        
 * standard_scRNAseq_analysis
- * filtered_gene_bc_matrices - input data
- * scRNA-seq_analysis.md - analysis pipeline
- * scRNA-seq_analysis_files - figures  
+   * filtered_gene_bc_matrices - input data
+   * scRNA-seq_analysis.md - analysis pipeline
+   * scRNA-seq_analysis_files - figures  
 
 #### (2) scATAC-seq - single-cell chromatin accessibility pipeline
 * README.md        
