@@ -28,11 +28,13 @@ web_summary.html
 
 **Key outputs**
 
-* **filtered_feature_bc_matrix/** – Filtered gene expression count matrix.
-* **raw_feature_bc_matrix/** – Unfiltered count matrix containing all detected barcodes.
-* **molecule_info.h5** – Molecule-level information for advanced analyses (e.g., RNA velocity, downsampling).
-* **web_summary.html** – Sequencing, mapping, and cell-calling quality metrics.
-* **cloupe.cloupe** – Interactive visualization file for Loupe Browser.
+| File                         | Description                                                                                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `filtered_feature_bc_matrix` | Filtered gene expression count matrix.                                                                                                      |
+| `raw_feature_bc_matrix`      | Unfiltered count matrix containing all detected barcodes.                                                                                   |
+| `molecule_info.h5`           | Molecule-level information for advanced analyses (e.g., RNA velocity, downsampling).                                                        |
+| `web_summary.html`           | Sequencing, mapping, and cell-calling quality metrics.                                                                                      |
+| `cloupe.cloup`               | Interactive visualization file for Loupe Browser.                                                                                           |
 
 ---
 
