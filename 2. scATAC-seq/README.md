@@ -18,3 +18,5 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
 * Compute per-cell motif activity scores using ChromVAR to identify driver transcription factors.
 
 ### Resources
+1. https://www.youtube.com/watch?v=yEKZJVjc5DY&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT&index=14
+2. https://stuartlab.org/signac/articles/pbmc_vignette#non-linear-dimension-reduction-and-clustering
