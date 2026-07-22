@@ -1,21 +1,33 @@
 ## scATAC-seq Data Analysis Pipeline
 This repository contains an end-to-end bioinformatics pipeline for processing, analyzing, and interpreting single-cell chromatin accessibility data (scATAC-seq). The workflow guides you from raw fragment files to peak calling, cell clustering, motif enrichment, and transcription factor (TF) activity inference.
 
-### Four major steps in scATAC-seq analysis include:
-#### (1) Quality Control.
-* Compute TSS enrichment scores and nucleosome signal metrics to filter out dead cells, low-quality barcodes, and doublets.
-  
-#### (2) Normalization & Dimensionality Reduction.
-* Run TF-IDF (Term Frequency-Inverse Document Frequency) normalization followed by Singular Value Decomposition (SVD) / LSI.
-  
-#### (3) Clustering & Embedding.
-* Build a Shared Nearest Neighbor (SNN) graph and visualize cellular landscapes via UMAP.
-  
-#### (4) Differential Accessibility.
-* Identify cell-type-specific peaks, open chromatin regions, and cis-regulatory elements.
-  
-#### (5) Motif Enrichment & TF Activity.
-* Compute per-cell motif activity scores using ChromVAR to identify driver transcription factors.
+### Key workflow steps in scATAC-seq analysis include:
+#### 1. Quality Control & Cell Filtering
+* Compute single-cell quality metrics—including TSS enrichment scores, nucleosome signal ratios, fragment counts in peaks, and genomic blacklist ratios—to filter out damaged cells, low-depth barcodes, and potential doublets.
+
+#### 2. Normalization & Dimensionality Reduction
+* Normalize cell-by-peak matrices using Term Frequency-Inverse Document Frequency (TF-IDF) normalization, followed by Singular Value Decomposition (SVD) to generate Latent Semantic Indexing (LSI) low-dimensional embeddings.
+
+#### 3. Clustering & Non-Linear Visualization
+* Construct Shared Nearest Neighbor (SNN) graphs on selected biological LSI dimensions and project cellular landscapes using UMAP to identify distinct regulatory cell states.
+
+#### 4. Gene Activity Quantification
+* Convert sparse chromatin accessibility (peaks) into pseudo-gene expression levels based on accessibility within gene bodies and promoters, enabling initial cell-type identification using known RNA markers.
+
+#### 5. Cell Type Annotation & Label Transfer
+* Map scATAC-seq clusters to reference single-cell RNA-seq (scRNA-seq) datasets via anchor transfer, or annotate manually using canonical cell-type markers (e.g., CD3D for T cells, MS4A1 for B cells, CD14 for Monocytes).
+
+#### 6. Differential Accessibility Analysis
+* Perform marker peak detection to identify cell-type-specific open chromatin regions, promoter accessibility profiles, and candidate cis-regulatory elements (CREs) that are significantly differentially accessible across clusters.
+
+#### 7. Motif & Transcription Factor Enrichment
+* Integrate transcription factor binding databases (e.g., JASPAR) to identify overrepresented TF binding motifs within differentially accessible peaks and uncover regulatory drivers.
+
+#### 8. ChromVAR Footprinting & Single-Cell TF Activity
+* Infer transcription factor activity on a per-cell basis using chromVAR z-scores and evaluate fine-scale TF binding footprints at target genomic sites.
+
+#### 9. Genomic Coverage & Track Visualization
+* Inspect accessibility profiles and generate locus-specific track plots at key genes, promoters, and distal enhancers across distinct cell types.
 
 ### Resources
 1. https://www.youtube.com/watch?v=yEKZJVjc5DY&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT&index=14
