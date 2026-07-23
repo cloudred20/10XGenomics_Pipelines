@@ -92,16 +92,11 @@ These files enable integrated analysis of gene expression and chromatin accessib
 
 ### Repository Architecture
 #### (1) scRNA-seq - single-cell RNA transcriptomics pipeline
-* README.md        
-* **standard_scRNAseq_analysis**: This pipeline takes noisy, high-dimensional raw sequencing counts and processes them into biologically interpretable clusters:
-   * **Workflow**: quality control filtering, normalization & scaling, linear dimensionality reduction, graph construction and clustering.
-   * **Input data**: filtered_gene_bc_matrices 
-   * **Analysis pipeline**: scRNA-seq_analysis.md 
-   * **Figures** - scRNA-seq_analysis_files
-
+* README.md
+* scripts - quality control and doublet removal, normalization, PCA dimensionality reduction, UMAP visualization, clustering, and marker gene identification, etc.
 #### (2) scATAC-seq - single-cell chromatin accessibility pipeline
-* README.md        
-* scripts - TF-IDF, LSI, and peak calling scripts
+* README.md
+* scripts - ATAC-specific QC, TF-IDF normalization, SVD/LSI dimensionality reduction, UMAP clustering, differential accessibility testing, and chromVAR motif enrichment, etc.
 
 #### (3) CITE-seq - surface epitope + transcriptomic + TCR integration
 * README.md        
