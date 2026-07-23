@@ -28,7 +28,16 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
 
 #### 9. Genomic Coverage & Track Visualization
 * Inspect accessibility profiles and generate locus-specific track plots at key genes, promoters, and distal enhancers across distinct cell types.
-
+---
+### Repository Architecture
+#### scATAC-seq - single-cell chromatin accessibility pipeline
+* README.md        
+* **standard_scATACseq_analysis**: This pipeline processes sparse, high-dimensional single-cell chromatin accessibility data from raw fragment files into biologically interpretable cell clusters:
+  * **Workflow**: quality control filtering, normalization & scaling, linear dimensionality reduction, graph construction and clustering.
+  * **Input data**: 10k_pbmc_ATACv2_nextgem_Chromium_Controller (filtered_peak_bc_matrix.h5, fragments.tsv, singlecell.csv)
+  * **Analysis pipeline**: scATAC-seq_analysis.md
+  * **Figures**: scATAC-seq_analysis_files
+---
 ### Resources
 1. https://www.youtube.com/watch?v=yEKZJVjc5DY&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT&index=14
 2. https://stuartlab.org/signac/articles/pbmc_vignette#non-linear-dimension-reduction-and-clustering
