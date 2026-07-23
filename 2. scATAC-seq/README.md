@@ -17,17 +17,14 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
 #### 5. Cell Type Annotation & Label Transfer
 * Map scATAC-seq clusters to reference single-cell RNA-seq (scRNA-seq) datasets via anchor transfer, or annotate manually using canonical cell-type markers (e.g., CD3D for T cells, MS4A1 for B cells, CD14 for Monocytes).
 
-#### 6. Differential Accessibility Analysis
-* Perform marker peak detection to identify cell-type-specific open chromatin regions, promoter accessibility profiles, and candidate cis-regulatory elements (CREs) that are significantly differentially accessible across clusters.
+#### 6. Differential Accessibility Analysis & Track Visualization
+* Perform marker peak detection to identify cell-type-specific open chromatin regions, promoter accessibility profiles, and candidate cis-regulatory elements (CREs) that are significantly differentially accessible across clusters. Inspect accessibility profiles and generate locus-specific track plots at key genes, promoters, and distal enhancers across distinct cell types.
 
 #### 7. Motif & Transcription Factor Enrichment
 * Integrate transcription factor binding databases (e.g., JASPAR) to identify overrepresented TF binding motifs within differentially accessible peaks and uncover regulatory drivers.
 
 #### 8. ChromVAR Footprinting & Single-Cell TF Activity
 * Infer transcription factor activity on a per-cell basis using chromVAR z-scores and evaluate fine-scale TF binding footprints at target genomic sites.
-
-#### 9. Genomic Coverage & Track Visualization
-* Inspect accessibility profiles and generate locus-specific track plots at key genes, promoters, and distal enhancers across distinct cell types.
 ---
 ### Repository Architecture
 #### scATAC-seq - single-cell chromatin accessibility pipeline
