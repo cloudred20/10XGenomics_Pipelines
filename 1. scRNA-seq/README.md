@@ -28,7 +28,7 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
 * cell-cell communication analyses - **CellChat**, **CellPhoneDB**, **NicheNet**.
 * trajectory inference. 
 * integration with other modalities such as scATAC-seq, CITE-seq, or spatial transcriptomics.
-
+---
 ### Repository Architecture
 #### scRNA-seq - single-cell RNA transcriptomics pipeline
 * README.md        
@@ -37,10 +37,10 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
    * **Input data**: filtered_gene_bc_matrices 
    * **Analysis pipeline**: scRNA-seq_analysis.md 
    * **Figures**: scRNA-seq_analysis_files
-
+---
 ### Resources
 1. https://www.youtube.com/watch?v=xbX49h7BiUU&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT
-
+---
 ### Publications
 1. https://www.cmghjournal.org/article/S2352-345X(25)00007-4/fulltext
 2. https://doi.org/10.1111/cea.70205
