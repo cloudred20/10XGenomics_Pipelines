@@ -21,6 +21,7 @@
 *.h5
 *.tsv.gz
 *.tsv.gz.tbi
+*.csv
 
 # --- Nextflow & Pipeline Execution ---
 .nextflow/
