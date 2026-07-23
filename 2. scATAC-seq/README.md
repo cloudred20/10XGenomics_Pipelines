@@ -33,6 +33,7 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
   * **Workflow**: quality control filtering, normalization & scaling, linear dimensionality reduction, graph construction and clustering.
   * **Analysis pipeline**: scATAC-seq_analysis.md
   * **Figures**: scATAC-seq_analysis_files
+
 Note: The input data — 10k_pbmc_ATACv2_nextgem_Chromium_Controller (filtered_peak_bc_matrix.h5, fragments.tsv, singlecell.csv) — is excluded from version control due to file size limits. It can download the raw files directly from the [Signac PBMC Vignette](https://stuartlab.org/signac/articles/pbmc_vignette#non-linear-dimension-reduction-and-clustering).
   
 ---
