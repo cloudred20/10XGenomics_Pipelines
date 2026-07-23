@@ -29,6 +29,15 @@ This repository contains an end-to-end bioinformatics pipeline for processing, a
 * trajectory inference. 
 * integration with other modalities such as scATAC-seq, CITE-seq, or spatial transcriptomics.
 
+### Repository Architecture
+#### scRNA-seq - single-cell RNA transcriptomics pipeline
+* README.md        
+* **standard_scRNAseq_analysis**: This pipeline takes noisy, high-dimensional raw sequencing counts and processes them into biologically interpretable clusters:
+   * **Workflow**: quality control filtering (TSS enrichment, nucleosome signal), TF-IDF normalization, LSI/SVD dimensionality reduction, SNN graph construction, and UMAP clustering.
+   * **Input data**: filtered_gene_bc_matrices 
+   * **Analysis pipeline**: scRNA-seq_analysis.md 
+   * **Figures**: scRNA-seq_analysis_files
+
 ### Resources
 1. https://www.youtube.com/watch?v=xbX49h7BiUU&list=PLJefJsd1yfhagnkss5B1YCsHaH0GWQfFT
 
