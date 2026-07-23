@@ -18,6 +18,9 @@
 *.h5ad
 *.rds
 *.tar.gz
+*.h5
+*.tsv.gz
+*.tsv.gz.tbi
 
 # --- Nextflow & Pipeline Execution ---
 .nextflow/
